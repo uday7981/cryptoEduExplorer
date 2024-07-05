@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import MainContent from './components/MainContent';
 import Introduction from './pages/Introduction';
+import AdvancedDefi from './pages/AdvancedDefi';
 // import BlockchainBasics from './pages/BlockchainBasics';
 // import Bitcoin from './pages/Bitcoin';
 // Import other pages here
@@ -22,7 +23,7 @@ const App = () => (
           <Route path="/introduction" element={<Introduction />} />
           {/* <Route path="/basics" element={<BlockchainBasics />} />
           <Route path="/bitcoin" element={<Bitcoin />} /> */}
-          {/* Add routes for other sections here */}
+          <Route path="/advanceddefi" element={<AdvancedDefi />} />
         </Routes>
       </Box>
     </Box>
