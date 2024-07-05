@@ -1,5 +1,5 @@
 import React from 'react';
-import './Introduction.css'; // Import your CSS file for styling
+import './Introduction.css';
 
 const Introduction = () => (
     <div className="introduction-container">
